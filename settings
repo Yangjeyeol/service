@@ -1,0 +1,36 @@
+
+// react 추가
+yarn add react react-dom
+
+// babel 추가
+yarn add --dev @babel/core babel-loader @babel/preset-react @babel/preset-env
+
+// webpack 추가
+yarn add --dev webpack webpack-dev-server webpack-cli clean-webpack-plugin html-webpack-plugin
+
+// 새로고침 없이 렌더링 - react
+yarn add --dev react-hot-loader
+
+// css, scss 사용
+yarn add --dev mini-css-extract-plugin style-loader css-loader node-sass sass-loader
+
+// [KOA 추가]
+yarn add --dev koa koa-router
+yarn add --dev @babel/cli @babel/node
+
+// [nodejs 실시간 재시작]
+yarn global add nodemon
+
+// 환경변수 파일 사용
+// 파일추가 .env
+yarn add dotenv 
+
+// 절대경로 처리
+// 파일추가 .jsconfig.json
+yarn add cross-env
+
+// ?? [eslint] start
+yarn add --dev eslint
+npx eslint --init
+// [eslint] end
+
